@@ -1,3 +1,8 @@
+(* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *)
+(* Aplicativo para aprendizado de falsos cognatos em inglês  *)
+(*           Desenvolvido por: Reinaldo Silveira             *)
+(* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *)
+
 unit U_Principal;
 
 interface
