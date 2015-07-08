@@ -1,0 +1,146 @@
+object F_Principal: TF_Principal
+  Left = 0
+  Top = 0
+  Caption = 'Falsos cognatos'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Orientations = [Portrait]
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object Rectangle1: TRectangle
+    Align = Client
+    Fill.Kind = Gradient
+    Fill.Gradient.Points = <
+      item
+        Color = xFF0D0D0D
+        Offset = 0.000000000000000000
+      end
+      item
+        Color = xFFBEBEBE
+        Offset = 0.397515535354614300
+      end
+      item
+        Color = xFFDBDBDB
+        Offset = 0.698757767677307100
+      end
+      item
+        Color = claWhite
+        Offset = 1.000000000000000000
+      end>
+    Fill.Gradient.StartPosition.X = 0.500000000000000000
+    Fill.Gradient.StartPosition.Y = 1.000000000000000000
+    Fill.Gradient.StopPosition.X = 0.499999970197677600
+    Fill.Gradient.StopPosition.Y = 0.000000000000000000
+    Size.Width = 640.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object lblPalavra: TLabel
+    Align = Horizontal
+    AutoSize = True
+    StyledSettings = [Family]
+    Position.Y = 67.000000000000000000
+    Size.Width = 640.000000000000000000
+    Size.Height = 54.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 40.000000000000000000
+    TextSettings.Font.Style = [fsBold]
+    TextSettings.FontColor = claIndigo
+    TextSettings.HorzAlign = Center
+    TextSettings.WordWrap = False
+    Text = 'lblPalavra'
+  end
+  object btnOpcao1: TButton
+    Align = Horizontal
+    StyledSettings = [Family]
+    Margins.Left = 20.000000000000000000
+    Margins.Right = 20.000000000000000000
+    Position.X = 20.000000000000000000
+    Position.Y = 160.000000000000000000
+    Size.Width = 600.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    TextSettings.Font.Size = 24.000000000000000000
+    TextSettings.Font.Style = [fsBold]
+    TextSettings.FontColor = claDarkcyan
+    OnClick = btnOpcao1Click
+  end
+  object btnOpcao2: TButton
+    Align = Horizontal
+    StyledSettings = [Family]
+    Margins.Left = 20.000000000000000000
+    Margins.Right = 20.000000000000000000
+    Position.X = 20.000000000000000000
+    Position.Y = 224.000000000000000000
+    Size.Width = 600.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    TextSettings.Font.Size = 24.000000000000000000
+    TextSettings.Font.Style = [fsBold]
+    TextSettings.FontColor = claDarkcyan
+    OnClick = btnOpcao1Click
+  end
+  object btnOpcao3: TButton
+    Align = Horizontal
+    StyledSettings = [Family]
+    Margins.Left = 20.000000000000000000
+    Margins.Right = 20.000000000000000000
+    Position.X = 20.000000000000000000
+    Position.Y = 288.000000000000000000
+    Size.Width = 600.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    TextSettings.Font.Size = 24.000000000000000000
+    TextSettings.Font.Style = [fsBold]
+    TextSettings.FontColor = claDarkcyan
+    OnClick = btnOpcao1Click
+  end
+  object lblAcertos: TLabel
+    AutoSize = True
+    StyledSettings = [Family]
+    Position.X = 20.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 90.000000000000000000
+    Size.Height = 24.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.Style = [fsBold]
+    TextSettings.FontColor = claDarkgreen
+    TextSettings.WordWrap = False
+    Text = 'Acertos: 0'
+  end
+  object lblErros: TLabel
+    AutoSize = True
+    StyledSettings = [Family]
+    Position.X = 20.000000000000000000
+    Position.Y = 40.000000000000000000
+    Size.Width = 61.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 16.000000000000000000
+    TextSettings.Font.Style = [fsBold]
+    TextSettings.FontColor = claCrimson
+    TextSettings.WordWrap = False
+    Text = 'Erros: 0'
+  end
+  object lblBottom: TLabel
+    Align = Horizontal
+    AutoSize = True
+    StyledSettings = [Family]
+    Position.Y = 400.000000000000000000
+    Size.Width = 640.000000000000000000
+    Size.Height = 38.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 28.000000000000000000
+    TextSettings.Font.Style = [fsBold]
+    TextSettings.FontColor = claCornsilk
+    TextSettings.HorzAlign = Center
+    Text = 'Aprendendo Falsos Cognatos'
+  end
+end

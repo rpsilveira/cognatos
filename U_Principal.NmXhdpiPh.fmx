@@ -1,0 +1,42 @@
+inherited F_Principal_NmXhdpiPh: TF_Principal_NmXhdpiPh
+  ClientHeight = 615
+  ClientWidth = 400
+  DesignerMasterStyle = 0
+  inherited Rectangle1: TRectangle
+    Size.Width = 400.000000000000000000
+    Size.Height = 615.000000000000000000
+  end
+  inherited lblPalavra: TLabel
+    Position.Y = 107.000000000000000000
+    Size.Width = 400.000000000000000000
+    Size.Height = 49.000000000000000000
+  end
+  inherited btnOpcao1: TButton
+    Position.Y = 200.000000000000000000
+    Size.Width = 360.000000000000000000
+    Size.Height = 60.000000000000000000
+  end
+  inherited btnOpcao2: TButton
+    Position.Y = 288.000000000000000000
+    Size.Width = 360.000000000000000000
+    Size.Height = 60.000000000000000000
+  end
+  inherited btnOpcao3: TButton
+    Position.Y = 376.000000000000000000
+    Size.Width = 360.000000000000000000
+    Size.Height = 60.000000000000000000
+  end
+  inherited lblAcertos: TLabel
+    Size.Width = 88.000000000000000000
+    Size.Height = 22.000000000000000000
+  end
+  inherited lblErros: TLabel
+    Size.Width = 60.000000000000000000
+    Size.Height = 20.000000000000000000
+  end
+  inherited lblBottom: TLabel
+    Position.Y = 544.000000000000000000
+    Size.Width = 400.000000000000000000
+    Size.Height = 34.000000000000000000
+  end
+end

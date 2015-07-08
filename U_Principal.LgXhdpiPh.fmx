@@ -1,0 +1,42 @@
+inherited F_Principal_LgXhdpiPh: TF_Principal_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 0
+  inherited Rectangle1: TRectangle
+    Size.Width = 450.000000000000000000
+    Size.Height = 695.000000000000000000
+  end
+  inherited lblPalavra: TLabel
+    Position.Y = 107.000000000000000000
+    Size.Width = 450.000000000000000000
+    Size.Height = 49.000000000000000000
+  end
+  inherited btnOpcao1: TButton
+    Position.Y = 216.000000000000000000
+    Size.Width = 410.000000000000000000
+    Size.Height = 50.000000000000000000
+  end
+  inherited btnOpcao2: TButton
+    Position.Y = 300.000000000000000000
+    Size.Width = 410.000000000000000000
+    Size.Height = 50.000000000000000000
+  end
+  inherited btnOpcao3: TButton
+    Position.Y = 384.000000000000000000
+    Size.Width = 410.000000000000000000
+    Size.Height = 50.000000000000000000
+  end
+  inherited lblAcertos: TLabel
+    Size.Width = 88.000000000000000000
+    Size.Height = 22.000000000000000000
+  end
+  inherited lblErros: TLabel
+    Size.Width = 60.000000000000000000
+    Size.Height = 20.000000000000000000
+  end
+  inherited lblBottom: TLabel
+    Position.Y = 536.000000000000000000
+    Size.Width = 450.000000000000000000
+    Size.Height = 34.000000000000000000
+  end
+end
